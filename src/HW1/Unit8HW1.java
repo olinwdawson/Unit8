@@ -9,7 +9,7 @@ public class Unit8HW1{
 		//print the column number they asked for with each element on a new line
 		
 	}
-	public static void columnPrinter(int columnNumber){
+	public static void columnPrinter(int columnNumber,int[][] arr){
 		System.out.println("");
 	}
 }
