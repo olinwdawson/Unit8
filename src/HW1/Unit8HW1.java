@@ -1,3 +1,5 @@
+package HW1;
+
 public class Unit8HW1{
 	public static void main(String[] args) {
 		//make your own 2D test array of integers (or whatever)
