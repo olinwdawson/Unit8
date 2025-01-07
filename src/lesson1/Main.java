@@ -44,5 +44,12 @@ public class Main {
         Hints: testArray.length gives you number of rows
                testArray[0].length give you the number of columns
          */
+        for(int col = 0; col < testArray[0].length;col++){
+            System.out.print("Column "+(col+1)+": ");
+            for(int row = 0; row<testArray.length;row++){
+                System.out.print(testArray[row][col]+" ");
+            }
+            System.out.println();
+        }
     }
 }
