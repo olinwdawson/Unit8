@@ -29,8 +29,8 @@ public class Unit8HW1Solution {
         }
         public static void columnPrinter(int columnNumber,int[][]arr){
             columnNumber = columnNumber - 1;
-            for(int row = 0; row<arr.length;row++){
-                System.out.println(arr[row][columnNumber]);
+            for (int[] row : arr) {
+                System.out.println(row[columnNumber]);
             }
         }
     }
